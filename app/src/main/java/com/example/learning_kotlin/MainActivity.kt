@@ -425,34 +425,16 @@ class MainActivity : AppCompatActivity() {
     //----------------------------------------------------------------------------------------------------------------------//
     //Kotlin Avanzado
     private fun advanceKotlin (){
-        // Enum Classes
-        //enumClasses()
 
-        // Nested and Inner Classes
-        //nestedAndInnerClasses()
-
-        // Class Inheritance
-        //classInheritance()
-
-        // Interfaces
-        //interfaces()
-
-        // Visibility Modifiers
-        //visibilityModifiers()
-
-        // Data classes
-        //dataClasses()
-
-        // Type aliases
-        //typeAliases()
-
-        // Destructuring declarations
-        //destructuringDeclarations()
-
-        // Extensions
-        //extensions()
-
-        // Lambdas
+        enumClasses()
+        nestedAndInnerClasses()
+        classInheritance()
+        interfaces()
+        visibilityModifiers()
+       dataClasses()
+       typeAliases()
+        destructuringDeclarations()
+        extensions()
         lambdas()
     }
 
@@ -494,7 +476,7 @@ class MainActivity : AppCompatActivity() {
         println(userDirection.dir)
     }
 
-    // Lección 2 Kotlin Intermedio: Nested and Inner Classes
+
 
     private fun nestedAndInnerClasses() {
 
@@ -509,7 +491,7 @@ class MainActivity : AppCompatActivity() {
         println("El resultado de sumar dos es $sumTwo")
     }
 
-    // Lección 3 Kotlin Intermedio: Class Inheritance
+
 
     private fun classInheritance() {
 
@@ -526,7 +508,7 @@ class MainActivity : AppCompatActivity() {
         designer.goToWork()
     }
 
-    // Lección 4 Kotlin Intermedio: Interfaces
+
 
     private fun interfaces() {
 
@@ -535,7 +517,7 @@ class MainActivity : AppCompatActivity() {
         gamer.stream()
     }
 
-    // Lección 5 Kotlin Intermedio: Visibility Modifiers
+
 
     private fun visibilityModifiers() {
 
@@ -570,9 +552,9 @@ class MainActivity : AppCompatActivity() {
         println(nicolas.toString())
 
         // copy
-        val brais2 = nicolas.copy(age = 34)
+        val nictes1 = nicolas.copy(age = 34)
         println(nicolas.toString())
-        println(brais2.toString())
+        println(nictes1.toString())
 
         // componentN
         val (name, age) = nictes
@@ -580,7 +562,7 @@ class MainActivity : AppCompatActivity() {
         println(age)
     }
 
-    // Lección 7 Kotlin Intermendio: Type aliases
+
 
     private var myMap: MyMapList = mutableMapOf()
 
@@ -593,7 +575,7 @@ class MainActivity : AppCompatActivity() {
         myMap = myNewMap
     }
 
-    // Lección 8 Kotlin Intermedio: Destructuring declarations
+
 
     private fun destructuringDeclarations() {
 
